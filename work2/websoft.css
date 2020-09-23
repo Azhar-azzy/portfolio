@@ -1,0 +1,93 @@
+
+.top_bar{
+	background-color: #4b4e54;
+	padding: 5px;
+	width: 100%;
+}
+.container-fluid .container .row i{
+	font-size: 16px;
+	color: #fff;
+	margin-right: 5px;
+}
+.my_menu{
+	margin-top: 30px;
+}
+.my_menu .navbar-default{
+	background: none;
+	border: none;
+}
+.my_menu .navbar-nav .active a,.my_menu .navbar-nav .active a:hover{
+	background-color: #4b4e54;
+	color: #fff;
+}
+.my_menu .navbar-nav li a:hover{
+		background-color: #4b4e54;
+		color: #fff;
+}
+@media (max-width: 1200px){
+	.my_menu .pull-right{float: none !important;}
+}
+#logo img{
+margin-top: 20px;
+}
+
+.container-fluid img{
+	max-height: 600px;
+	width: 1500px;
+	margin: auto;
+}
+#dual p{
+	text-align: left;
+}
+#dual img{
+	height: 300px;
+	width: 700px;
+	padding-right: 100px;
+}
+#my_slide h2,#my_slide p{
+	color: #FFF;
+}
+.parallax{
+	background: url(a6.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.parallax img{
+	height: 200px;
+	width: 200px;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+.our_team .row img{
+	height:250px;
+	width: 200px;
+	margin: auto;
+
+}
+.our_team .row div{
+	border: 1px dotted gray;
+	text-align: center;	
+}
+.footer{
+	background:url(a4.jpg);
+	color:#fff;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 250px;
+}
+.footer .row img{
+	height: 60px;
+	width: 130px;
+	margin: 10px 0;
+}
+.footer .row ul li a{
+	font-size: 17px;
+	text-decoration: none;
+	color: #4daccc;
+}
+.footer .row ul li a:hover{
+	color: #235aef;
+	font-size: 20px;
+}
+
+

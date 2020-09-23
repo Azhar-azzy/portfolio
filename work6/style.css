@@ -1,0 +1,155 @@
+/* PORTFOLIO TEMPLATE CSS */
+*,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #fff;
+	overflow-x: hidden;
+}
+hr{
+	background-color: #ccc;
+}
+.navbar{
+	background: rgba(0,0,0,0.5);
+	width: 100%;	
+}
+nav .navbar-header{
+	color:#FFF;
+	font-size: 20px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+nav ul li{
+	float: right;
+	
+}
+nav ul li a, a.logo{
+	color:#fff;
+	font-weight: bolder;
+	font-size: 20px;
+}
+@media screen and (max-width: 768px){
+	nav .navbar-header{font-size: 15px;}
+	nav .navbar-toggle{margin-top:10px;margin-bottom: 0px;padding-bottom: 0px;padding-right: 20px;	}
+	nav ul li{float: none;text-align: center;}
+}
+header {
+	background: url(school.jpg);
+	height:;
+	background-attachment: fixed;
+	background-size: cover;	
+	background-position: center;
+	text-align: center;
+	font-family: Aclonica;
+	font-weight: bold;
+	color:#fff;
+}
+header p{
+	font-size: 40px;
+	padding-top: 50px;
+}
+header div{
+	font-size: 40px;
+	color:#000;
+	padding-top: 10%;
+}
+header h2{
+	font-size: 40px;
+	color:#000;
+	padding-bottom: 10% !important;
+}
+
+header span{
+	color:#7d0a0a;
+}
+@media screen and (max-width: 768px){
+	header p{font-size: 15px;padding-top: 60px;display: none;}
+	header div{padding-top: 20%;}
+	header div,header h2{font-size: 25px;}
+}
+.container img{
+	transition: transform 1s;
+	overflow: hidden;
+}
+.container img:hover{
+	transform: scale(1.1);
+}
+#parent .row{
+	margin:30px auto;
+	background: #ccc;
+}
+.saying{
+	margin:20px auto;
+}
+#teacher{
+	background: #ccc;
+}
+#teacher .row div{
+	border:1px dotted;
+}
+.fb{
+	text-align: center;
+}
+.notice h1{
+	text-align: center;
+}
+.notice ul li{
+	margin:20px;
+	font-size: 15px;
+	color:#0b1242;
+}
+.notice ul{
+	background: #ccc;
+}
+#counter{
+	background:#333;
+	color:#fff;
+	font-size: 25px;
+}
+.box{
+	font-weight: bold;
+}
+.box span{
+	color:#0dfcff;
+	font-weight: bold;
+}
+.icon-box{
+	border:1px solid;
+	font-size: 30px;
+	width: 80px;
+	height: 80px;
+	margin: 30px auto;
+	transform: rotate(45deg);
+}
+.icon-box .fa{
+	transform: rotate(-45deg);
+	text-align: center;
+	margin: 20px;
+}
+
+.carousel-inner .item img{
+	width:100%;
+	height: 400px;
+}
+.carousel-caption{
+	top:25%;
+}
+.carousel-caption p{
+	text-align: right;
+}
+footer{
+	color:#fff;
+	background: #333;
+}
+@media screen and (max-width: 768px){
+	#gallery{text-align: center;}
+	#gallery img{
+		height: 200px;width: 90%;
+	}
+	#event{text-align: center;}
+	#event img{
+		height: 200px;width:90%;
+	}
+}

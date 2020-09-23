@@ -1,0 +1,222 @@
+*{margin: 0px;padding: 0px;}
+.navbar{
+	border:0 !important;
+	background: rgba(0,0,0,0.5) !important;
+	max-width: 100%;
+}
+
+
+.navbar li a{
+	color:#fff !important;
+	font-size: 16px !important;
+	font-weight: bold;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a{
+	color:#59fee8 !important;
+	background: transparent !important;
+}
+.glyphicon{
+	color:white;
+	margin: 0; padding: 0;
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 768px){
+    .navbar{min-height: 60px;}
+    .navbar-header{margin:0 !important; padding: 0 !important;}
+}
+
+.image{
+	background: url('city2.jpg');
+	height: 600px;
+	width: 100%;
+	background-size:cover;
+	background-attachment: fixed;
+}
+@media screen and (max-width: 768px){
+	.image{height: 300px !important;
+	background-size:cover;
+	background-attachment: fixed;}
+}
+.image .head{
+	font-size: 40px;
+	color:#fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image p{
+	position: absolute;
+	margin-left: 14%;
+	font-size: 40px;
+	color:#fff;
+}
+.typebg{
+	background: rgba(0,0,0,0.5);
+	height: 120px;
+	width:50%;
+	margin-top:20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media screen and (max-width: 1200px){
+	.image{height: 500px;}
+	.image .head,.image p{font-size: 30px;}
+	.image p{margin-left:18%;}
+	.typebg{width: 60%;height: 90px;}
+}
+@media screen and (max-width: 768px){
+	.image .head{font-size: 25px;}
+	.image p{font-size: 25px;margin-left:22%;}
+	.typebg{width: 85%;}
+	#hide{display: none;}
+}
+@media screen and (max-width: 500px){
+	.image p{margin-left:18%;}
+	.typebg{margin-top: 25%;}
+}
+.center{
+	display: block;
+	margin-left: auto;margin-right: auto;
+	margin-top: 5%;
+}
+
+/* ...................................................................................................................................... */
+#pro{	background:#1d437f;}
+.pro{
+	margin: 40px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.pro .box{
+	position: relative;
+	background: yellow;
+	height: 200px;width: 300px;
+	margin-top:3% ;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	overflow: hidden;
+}
+
+.pro .box .imgbox{
+	position: relative;
+}
+.pro .box .imgbox img{
+	width: 100%;
+	height: 200px;
+	border:2px solid #000;
+	transition: transform 1s;
+}
+.pro .box .imgbox img:hover{
+	transform: scale(1.3);
+}
+@media screen and (max-width: 768px){
+	.box{
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+}
+
+h1{
+	text-align: center;
+	color:#fff;
+}
+.product h1{
+	text-align: center;
+	color:#fff;
+	margin: 30px;
+}
+h2{
+	text-align: center;
+	font-size: 70px;
+	margin: 60px auto 50px auto;
+	color:#0dfcff;
+}
+.product p{
+	color:#fff;
+	text-align: justify-all;
+}
+.product{
+	background: url('img.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 520px;
+}
+.product .row{
+	background: rgba(0,0,0,0.5);
+	margin: auto 50px;
+	min-height:520px;
+}
+/* ----------------------------------CONATCT US----------------------------------------------- */
+
+#cnt{background: url('img.jpg');color:#fff !important;}
+
+
+.contact a{
+	color:#fff;
+	text-decoration: none;
+}
+.contact a:hover{
+	color:#0dfcff;
+	font-size: 20px;
+}
+
+/* ------------------------------ COUNTER-------------------------*/
+
+.counter-section p{
+	font-size: 30px;
+}
+.icon-box{
+	border: 1px solid ;
+	height: 90px;
+	width: 90px;
+	margin: 35px auto;
+	transform: rotate(45deg);
+	color:#fff;
+}
+div.box span{
+	font-size:25px !important;color:#0dfcff !important;
+	font-weight: bold;
+}
+.icon-box .fa{
+	font-size: 30px;
+	margin: 25px auto;
+	color:#c9c1c2;
+	transform: rotate(-45deg);
+}
+#section{
+	background:#000;
+	background-size: cover;
+	background-position: center;
+	padding: 10px;
+}
+.box p{
+	font-size: 25px;
+	font-weight: bold;
+	color:#fff;
+	margin: 10px;
+}
+/* ----------------------------------------------QUOTES SECTION-------------------------------------------------------- */
+
+#mySlide{min-height: 150px;}
+.carousel-inner .item{
+	font-size: 22px;
+	padding: 10% 20%;
+}
+@media screen and (max-width: 768px){
+	.carousel-inner .item{
+	font-size: 15px;
+	}
+}
+.carousel-inner a{
+	background: transparent !important;
+}
+.carousel-inner .glyphicon{
+	color:#33f;
+}
+
+.carousel-indicators li.active{
+	background-color:#00f;
+}
